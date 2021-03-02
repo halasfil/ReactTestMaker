@@ -1,0 +1,29 @@
+.Question {
+  background-color: #e1e1e1;
+  width: 75%;
+  margin: 6px auto;
+  border: 1px solid rgb(160, 154, 154);
+  box-shadow: 0 2px 3px rgb(86, 86, 86);
+  padding: 8px;
+}
+.Question textarea {
+  display: block;
+  width: 80%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  outline: none;
+  font: inherit;
+  margin: 8px auto;
+  padding: 16px;
+}
+
+
+.Question select {
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline: none;
+    font: inherit;
+    margin: auto;
+}

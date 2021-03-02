@@ -1,0 +1,18 @@
+.TestNaming input,
+.TestNaming textarea,
+.TestNaming select {
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline: none;
+    font: inherit;
+    margin: 8px auto ;
+    padding: 16px;
+}
+
+.TestNaming textarea {
+    height: 200px;
+    
+}
+    

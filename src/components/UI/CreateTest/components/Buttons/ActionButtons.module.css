@@ -1,0 +1,40 @@
+.Add button {
+  background: rgba(106, 255, 0, 0.194);
+  padding: 0.5 rem 0;
+  border-radius: 10px;
+  width: 8rem;
+  height: 5rem;
+  margin: 8px;
+  display: inline-block;
+  float: right;
+}
+.Add button:hover{
+  background: rgba(106, 255, 0, 0.735);
+  
+}
+.Delete button {
+  background: rgb(255, 0, 0, 0.194);
+  padding: 0.5 rem 0;
+  border-radius: 10px;
+  width: 8rem;
+  height: 5rem;
+  margin: 8px;
+  display: inline-block;
+  float: left;
+}
+.Delete button:hover {
+  background: rgb(255, 0, 0, 0.735);
+}
+.Create button {
+  background: rgb(118, 134, 255, 0.194);
+  padding: 0.5 rem 0;
+  border-radius: 10px;
+  width: 20rem;
+  height: 5rem;
+  margin: 8px;
+  
+}
+.Create button:hover {
+  background: rgb(118, 134, 255, 0.735);
+ 
+}

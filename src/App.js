@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route } from 'react-router-dom';
+
+import Navigation from './components/Navigation/Navigation';
+import DefaultPage from './components/UI/Default/Default';
+import SolveTest from './components/UI/SolveTest/SolveTest';
+import CreateTest from './components/UI/CreateTest/CreateTest';
+import TestToBeDone from './components/UI/SolveTest/components/Tests/TestToBeDone'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navigation />
+      <main>
+        <Route path="/" component={DefaultPage} exact/>
+        <Route path="/createTest" component={CreateTest} />
+        <Route path="/solveTest" component={SolveTest} exact/>
+        <Route exact path="/solveTest/:id" component={TestToBeDone} />
+
+      </main>
+    </>
   );
 }
 

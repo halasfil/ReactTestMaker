@@ -1,0 +1,30 @@
+.TestComponent h3,
+h2 {
+  text-align: center;
+}
+
+.TestComponent ul {
+  background-color: #efefef;
+  width: 80%;
+  margin: 8px auto;
+  border: 1px solid rgb(160, 154, 154);
+  padding: 20px;
+}
+.TestComponent li {
+    background-color: #dedede;
+    width: 80%;
+    margin: 16px auto;
+    border: 1px solid rgb(160, 154, 154);
+    padding: 20px;
+    list-style: none;
+  }
+.TestComponent label,
+select {
+  display: block;
+  cursor: pointer;
+  padding-right: 6px;
+  padding-bottom: 1px;
+  margin: 8px auto;
+  border: 1px solid rgb(160, 154, 154);
+  padding: 20px;
+}

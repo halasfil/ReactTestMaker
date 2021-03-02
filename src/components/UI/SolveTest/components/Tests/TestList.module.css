@@ -1,0 +1,22 @@
+.TestList {
+    background-color: #efefef;
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid rgb(160, 154, 154);
+    padding: 20px;
+}
+
+.TestList li {
+    text-align: center;
+    list-style-type: none;
+    border: 1px solid rgb(160, 154, 154);
+    padding: 20px;
+
+}
+
+
+.TestList li:hover {
+    background-color: #ababab;
+
+
+}
